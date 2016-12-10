@@ -10,6 +10,7 @@ public class NumberOfWaysToScorePoints {
 
     //in this version to make 3 - 1,2 is same as 2,1.
     //This is similar to coin changing problem
+    // this is combination of total ways (v2 is permutation of total ways)
     public int version1(int score[],int total){
         int T[] = new int[total+1];
         T[0] = 1;
@@ -25,6 +26,7 @@ public class NumberOfWaysToScorePoints {
     
     //in this version to make 3 - 1,2 and 2,1 are counted different.
     //This is same as fibo series only that fibo series looks at last 2 numbers and here we look back k values
+    // this is permutation of total ways (v1 is combination of total ways)    
     public int version2(int score[],int total){
         int T[] = new int[total+1];
         T[0] = 1;
