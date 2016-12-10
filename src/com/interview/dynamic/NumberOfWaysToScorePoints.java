@@ -5,6 +5,7 @@ package com.interview.dynamic;
  *test case
  *what happens if total can't be formed with given values
  *what if numbers are 0 or negative
+ * http://www.geeksforgeeks.org/count-number-ways-reach-given-score-game/
  */
 public class NumberOfWaysToScorePoints {
 
