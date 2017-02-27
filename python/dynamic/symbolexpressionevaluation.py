@@ -13,6 +13,9 @@ Complexity
 * SpaceL O(n^2)
 
 Where n is the length of the expression.
+
+http://stackoverflow.com/questions/8652447/parenthesizing-a-string-so-that-expression-takes-a-given-value
+
 """
 
 
